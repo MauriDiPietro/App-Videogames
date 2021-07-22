@@ -1,0 +1,51 @@
+header {
+  background-color: rgba(0, 0, 0, 0.336);
+  
+  
+
+}
+
+.search {
+  margin-top: 10px;
+ 
+  align-items: center;
+  border: 2px solid;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+/* button {
+
+  border: 2px solid;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  background-color: cornflowerblue;
+  color: antiquewhite;
+} */
+
+/* .gamesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+  } */
+  
+  @media (max-width: 560px) {
+    .gamesGrid {
+      grid-template-columns: 100%;
+    }
+  }
+
+  /* .gameCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+  } */
+  
+  /* .gameImage {
+    border-radius: 10px;
+    background-color: azure;
+  } */

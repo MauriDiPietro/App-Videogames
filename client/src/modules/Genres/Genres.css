@@ -1,0 +1,45 @@
+.gamesGrid {
+    display: grid;
+    /* autofill (px) cambian segun el ancho de la imagen */
+    grid-template-columns: repeat(auto-fill, 300px);
+    /* separacion entre elementos */
+    gap: 20px; 
+    /* separacion entre elementos y el borde */
+    padding: 20px;
+    /* conenido justificado al centro */
+    justify-content: center;
+  }
+  body {
+    background-image: url('https://i.pinimg.com/originals/6f/63/d1/6f63d1b1a01260475b49ac49641ab92b.png');
+    background-size: 100%;
+  }
+  
+  /* responsive */
+  @media (max-width: 560px) {
+    /* se sobrescribe solo el grid-template-columns */
+    .gamesGrid {
+      grid-template-columns: 100%;
+    }
+  }
+
+
+
+  .gameCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  .gameImage {
+    border-radius: 10px;
+    background-color: azure;
+  }
+  
+  @media (max-width: 560px) {
+    .gameImage {
+      width: 90%;
+      height: auto;
+    }
+  }

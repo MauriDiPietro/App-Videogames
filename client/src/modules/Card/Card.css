@@ -1,0 +1,28 @@
+.gameCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .gameImage {
+    border-radius: 10px;
+    background-color: azure;
+  }
+  
+  @media (max-width: 560px) {
+    .gameImage {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  .background{
+    background-image: url('https://i.pinimg.com/originals/59/71/b6/5971b6ff0f900f92d27a64cec0c7f2ab.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 20px;
+  }

@@ -1,0 +1,23 @@
+.LandingPage {
+    text-align: center;
+    font-family: 'landing-page';
+    font-size: 50px;
+  }
+
+@font-face{
+  font-family: 'landing-page';
+  src: url(../../Gameplay.ttf)
+}  
+
+  body {
+    background-image: url('https://i.pinimg.com/originals/df/85/c8/df85c827281f53f1dd156ed78f9f41a0.jpg');
+    background-size: 95%;
+    background-position:top;
+    background-attachment: fixed;
+    
+  }
+
+.button-enter {
+  border-radius: 20px;
+  font-size: 30px;
+}
